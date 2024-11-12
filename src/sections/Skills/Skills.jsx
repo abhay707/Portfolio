@@ -1,6 +1,6 @@
 import styles from './SkillsStyles.module.css';
-import checkMarkIcon from '../../assets/checkmark-light.svg'
-import checkMarkdark from '../../assets/checkmark-dark.svg'
+import checkMarkLight from '../../assets/checkmark-light.svg'
+import checkMarkIcon from '../../assets/checkmark-dark.svg'
 import SkillList from '../../common/SkillList';
 
 function Skills() {

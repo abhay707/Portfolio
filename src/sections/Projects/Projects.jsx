@@ -14,7 +14,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={Snake}
-          link={"https://github.com/abhay707/Python-Projects"}
+          link={"https://github.com/abhay707/Snake-Game.git"}
           h3={"Snake"}
           p={"Snake Game"}
         />
