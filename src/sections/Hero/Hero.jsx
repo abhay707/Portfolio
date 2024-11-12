@@ -53,8 +53,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Sunt dolorum consequuntur a maxime.
+          Skilled and dedicated individual, Always eager <br />to learn new things,
+          Enjoy working individually as well as in team.
         </p>
         <a href={CV} download>
             <button className="hover">
