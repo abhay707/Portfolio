@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import Viberr from "../../assets/viberr.png";
+import Snake from "../../assets/snake.png"
 import freshBurger from '../../assets/fresh-burger.png';
 import fitLift from '../../assets/fitlift.png'
 import hipster from '../../assets/hipsster.png'
@@ -13,10 +13,10 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={Viberr}
+          src={Snake}
           link={"https://github.com/abhay707/Python-Projects"}
-          h3={"Viberr"}
-          p={"Streaming App"}
+          h3={"Snake"}
+          p={"Snake Game"}
         />
         <ProjectCard
           src={freshBurger}
