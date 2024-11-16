@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import Snake from "../../assets/snake.png"
-import freshBurger from '../../assets/fresh-burger.png';
+import pong from '../../assets/Pong.png'
 import fitLift from '../../assets/fitlift.png'
 import hipster from '../../assets/hipsster.png'
 
@@ -19,10 +19,10 @@ function Projects() {
           p={"Snake Game"}
         />
         <ProjectCard
-          src={freshBurger}
-          link={"https://github.com/abhay707/Python-Projects"}
-          h3={"Fresh Burger"}
-          p={"Burger Resturant"}
+          src={pong}
+          link={"https://retro-pong-games.netlify.app/"}
+          h3={"Pong"}
+          p={"Retro Pong Game"}
         />
         <ProjectCard
           src={hipster}
