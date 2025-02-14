@@ -3,7 +3,7 @@ import styles from "./ProjectsStyles.module.css";
 import Snake from "../../assets/snake.png"
 import pong from '../../assets/Pong.png'
 import fitLift from '../../assets/fitlift.png'
-import hipster from '../../assets/hipsster.png'
+import Notes from '../../assets/NotesApp.png'
 
 import ProjectCard from "../../common/ProjectCard";
 
@@ -25,10 +25,10 @@ function Projects() {
           p={"Retro Pong Game"}
         />
         <ProjectCard
-          src={hipster}
-          link={"https://github.com/abhay707/Python-Projects"}
-          h3={"Hipster"}
-          p={"Glasses Shop"}
+          src={Notes}
+          link={"https://notes-gallery.netlify.app/"}
+          h3={"Notes App"}
+          p={"Notes Making App"}
         />
         <ProjectCard
           src={fitLift}
