@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import Snake from "../../assets/snake.png"
 import pong from '../../assets/Pong.png'
-import fitLift from '../../assets/fitlift.png'
+import fitLabs from '../../assets/fitlift.png'
 import Notes from '../../assets/NotesApp.png'
 
 import ProjectCard from "../../common/ProjectCard";
@@ -31,9 +31,9 @@ function Projects() {
           p={"Notes Making App"}
         />
         <ProjectCard
-          src={fitLift}
-          link={"https://github.com/abhay707/Python-Projects"}
-          h3={"fitLift"}
+          src={fitLabs}
+          link={"https://fit-labs.vercel.app/"}
+          h3={"fitLabs"}
           p={"Fitness App"}
         />
       </div>
